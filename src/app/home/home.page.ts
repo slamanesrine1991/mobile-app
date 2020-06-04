@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  public contact = {
+    name: "Easy Global Software",
+    email: "contact@easy-global-software.fr",
+    tel: "0668374633",
+    logo: "assets/images/logo.png",
+    location: "assets/images/location.png"
+  }
+  constructor() { }
 
 }
